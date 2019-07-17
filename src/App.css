@@ -1,7 +1,16 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #282c34;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
+.App span {
+  color: aliceblue;
+  font-size: calc(8px + 2vmin);
+  margin: 0;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: slateblue;
+  color: aliceblue;
+  margin: 15px;
 }
